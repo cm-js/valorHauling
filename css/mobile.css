@@ -1,0 +1,39 @@
+/*  ===============
+    Mobile Resizing
+    =============== */
+@media (max-width: 820px) {
+
+    /* ALL PAGES */
+
+    #header-top {
+        display: none;
+    }
+
+    #header-bottom {
+        width: calc(100vw - 120px);
+        grid-row: span 2;
+    }
+
+    #header-bottom a {
+        height: 90px;
+    }
+
+    footer {
+        padding: 0 30px 0 30px;
+    }
+
+    #top-desc {
+        font-size: 18px;
+    }
+
+    #top-list {
+        font-size: 20px;
+    }
+
+    /* OTHER PAGES */
+    #top {
+        padding: 20px 5vw 0 5vw;
+    }
+
+    /* DO LATER */
+}

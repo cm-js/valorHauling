@@ -33,3 +33,66 @@ h1 {
 #bookingButton:hover {
     background-color: var(--primary-color-2);
 }
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 12px 0;
+}
+
+/* === DESCRIPTION === */
+
+#description {
+    margin: 12px 5vw;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+/* === TESTIMONIES === */
+
+#testimonies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 12px 5vw;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.review-card {
+    flex: 1;
+    min-width: 300px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.star {
+    color: #f1c40f;
+    font-size: 48px;
+}
+
+/* === SERVICES === */
+
+#services {
+    margin: 12px 5vw;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+/* === CONTACT === */
+
+#contact {
+    margin: 12px 5vw;
+    border: 2px solid white;
+    border-radius: 16px;
+}

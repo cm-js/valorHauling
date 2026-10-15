@@ -17,6 +17,10 @@ header {
     overflow: hidden;
 }
 
+#logo img {
+    border-radius: 12px;
+}
+
 #header-top {
     background-color: var(--primary-color-2);
     display: flex;
@@ -24,28 +28,24 @@ header {
     grid-column: 2;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 16px 0px 0px;
+    border-radius: 0px 0px 0px 8px;
 }
 
 #left {
     display: flex;
     justify-self: left;
-    width: 40%;
+    width: fit-content;
 }
 
 #right {
     display: flex;
-    justify-self: center;
-    width: 60%;
-    margin-right: 30px;
-}
-
-#right p {
-    text-align: right;
+    justify-self: right;
+    width: fit-content;
 }
 
 #header-top p {
     margin: 0 0 0 20px;
-    flex: 1;
 }
 
 #header-top p a:hover {
@@ -68,6 +68,7 @@ header {
     text-align: center;
     align-content: center;
     text-decoration: none;
+    border-radius: 8px;
 }
 
 #header-bottom a:hover {

@@ -8,10 +8,12 @@
         <!-- Sitewide Styling -->
         <link rel="stylesheet" href="./css/global.css">
         <link rel="stylesheet" href="./css/header-footer.css">
-        <link rel="stylesheet" href="./css/mobile.css">
 
         <!-- Page-specific Styling -->
         <link rel="stylesheet" href="./css/home.css">
+
+        <!-- Mobile styling comes last, for priority purposes -->
+        <link rel="stylesheet" href="./css/mobile.css">
 
         <title>Valor Hauling</title>
     </head>
@@ -19,7 +21,7 @@
         <!-- Site header - Top of the page -->
         <header>
             <a href="index.html" id="logo">
-                <img src="./images/logo.png" alt="Valor Hauling Logo" height="90">
+                <img src="./images/logo.png" alt="Valor Hauling Logo" height="90" draggable="false">
             </a>
             <div id="header-top">
                 <div id="left">
@@ -65,22 +67,25 @@
             </div>
 
             <div id="testimonies">
-                <div class="review-card">
-                    <p>Amazing quality of work. Definitely recommend hiring.</p>
-                    <div class="stars">
-                        <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                <h2>Customer Reviews</h2>
+                    <div id="grid-test">
+                        <div class="review-card">
+                        <p>Amazing quality of work. Definitely recommend hiring.</p>
+                        <div class="stars">
+                            <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                        </div>
                     </div>
-                </div>
-                <div class="review-card">
-                    <p>I went out shopping and they were done by the time I was back!</p>
-                    <div class="stars">
-                        <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                    <div class="review-card">
+                        <p>I went out shopping and they were done by the time I was back!</p>
+                        <div class="stars">
+                            <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                        </div>
                     </div>
-                </div>
-                <div class="review-card">
-                    <p>They were easy to work with and wonderful to plan with.</p>
-                    <div class="stars">
-                        <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                    <div class="review-card">
+                        <p>They were easy to work with and wonderful to plan with.</p>
+                        <div class="stars">
+                            <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,18 +93,14 @@
             <div id="services">
                 <h2>Our Sevices</h2>
                 <div id="grid-serv">
-                    <img id="grid-serv-img" src="./images/placeholders/photo-2.png" alt="Photo 2">
-                    <img id="grid-serv-img" src="./images/placeholders/photo-3.png" alt="Photo 3">
-                    <p>Junk Removal</p>
-                    <p>Garbage Pickup</p>
-                </div>
-            </div>
-
-            <div id="contact">
-                <h2>Book Now!</h2>
-                <div id="grid-cont">
-                    <p>Phone Number</p>
-                    <p>Email</p>
+                    <div class=service>
+                        <img id="grid-serv-img" src="./images/placeholders/photo-2.png" alt="Photo 2">
+                        <p>Junk Removal</p>
+                    </div>
+                    <div class="service">
+                        <img id="grid-serv-img" src="./images/placeholders/photo-3.png" alt="Photo 3">
+                        <p>Garbage Pickup</p>
+                    </div>
                 </div>
             </div>
         </main>
@@ -107,13 +108,13 @@
         <!-- Site Footer - bottom of the page -->
         <footer>
             <div class="footer-col">
-                <p>Hello, I'm in column 1!</p>
+                <p>Medina, Ohio</p>
             </div>
             <div class="footer-col">
-                <p>Hello, I'm in column 2!</p>
+                <a href="#">Book a quote today!</a>
             </div>
             <div class="footer-col">
-                <p>Hello, I'm in column 3!</p>
+                <a href="#">555-555-5555</a>
             </div>
         </footer>
         <div id="copyright">

@@ -90,6 +90,15 @@ footer {
     justify-content: center;
 }
 
+.footer-col a {
+    align-content: center;
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: lightgrey;
+}
+
 #copyright {
     background-color: var(--primary-color);
     height: 50px;

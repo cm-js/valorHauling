@@ -37,7 +37,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 36px;
-    margin: 12px 0;
+    margin: 12px 0 8px 0;
 }
 
 /* === DESCRIPTION === */
@@ -46,12 +46,15 @@ h2 {
     margin: 12px 5vw;
     border: 2px solid white;
     border-radius: 16px;
+    background-color: var(--primary-color-2);
 }
 
 #grid-desc {
     display: grid;
     grid-template-columns: 50% 50%;
-    border-top: 2px solid grey;
+    border-top: 4px solid var(--primary-color);
+    padding: 0 10px;
+    background-color: var(--secondary-color);
 }
 
 #grid-desc ul {
@@ -67,14 +70,20 @@ h2 {
 /* === TESTIMONIES === */
 
 #testimonies {
+    border: 2px solid white;
+    margin: 12px 5vw;
+    border-radius: 16px;
+    background-color: var(--primary-color-2);
+}
+
+#grid-test {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    margin: 12px 5vw;
-    border: 2px solid white;
-    border-radius: 16px;
     font-size: 24px;
     padding: 8px;
+    border-top: 4px solid var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .review-card {
@@ -103,13 +112,28 @@ h2 {
     margin: 12px 5vw;
     border: 2px solid white;
     border-radius: 16px;
+    background-color: var(--primary-color-2);
 }
 
 #grid-serv {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 50% 50%;
-    border-top: 2px solid grey;
+    border-top: 4px solid var(--primary-color);
     place-items: center;
+    background-color: var(--secondary-color);
+    padding: 8px;
+    gap: 12px;
+}
+
+.service {
+    display: flex;
+    flex: 1;
+    min-width: 250px;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius: 8px;
+    align-items: center;
 }
 
 #grid-serv p {
@@ -118,12 +142,5 @@ h2 {
 
 #grid-serv-img {
     width: 60%;
-}
-
-/* === CONTACT === */
-
-#contact {
-    margin: 12px 5vw;
-    border: 2px solid white;
-    border-radius: 16px;
+    margin-top: 15px;
 }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Sitewide Styling -->
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/header-footer.css">
+
+        <!-- Page-specific Styling -->
+        <link rel="stylesheet" href="./css/contact.css">
+
+        <!-- Mobile styling comes last, for priority purposes -->
+        <link rel="stylesheet" href="./css/mobile.css">
+
+        <title>Valor Hauling</title>
+    </head>
+    <body>
+        <!-- Site header - Top of the page -->
+        <header>
+            <a href="index.html" id="logo">
+                <img src="./images/logo.png" alt="Valor Hauling Logo" height="90" draggable="false">
+            </a>
+            <div id="header-top">
+                <div id="left">
+                    <p>Valor Hauling - Get a Free Quote Today</p>
+                </div>
+                <div id="right">
+                    <p><a href="#">555-555-5555</a></p>
+                    <p><a href="#">booking@valorhauling.com</a></p>
+                </div>
+            </div>
+            <div id="header-bottom">
+                <a href="index.html">Home</a>
+                <a href="#">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+
+        <!-- Main site content. -->
+        <main>
+            <div id="contacts">
+                <h2>Contact Us</h2>
+                <div id="cont-grid">
+                    <img id="icon" src="./images/placeholders/photo-5.png">
+                    <p class="cont-text"><a href="#">555-555-5555</a></p>
+
+                    <img id="icon" src="./images/placeholders/photo-5.png">
+                    <p class="cont-text"><a href="#">booking@valorhauling.com</a></p>
+
+                    <img id="icon" src="./images/placeholders/photo-5.png">
+                    <p class="cont-text">Location coming soon...</p>
+                </div>
+            </div>
+
+            <div id="bookingForm">
+                <h2>Request a Quote</h2>
+                <div id="form-grid">
+                    <form id="contact-form" action="#" method="get">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="user" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="user@example.com" required>
+
+                        <label for="feedback">What You Need:</label>
+                        <textarea type="text" id="feedback" name="feedback" rows="5" placeholder="Tell us what you need done!" required></textarea>
+
+                        <button type="submit">Submit</button>
+                        <button type="reset" id="reset">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- Site Footer - bottom of the page -->
+        <footer>
+            <div class="footer-col">
+                <p>Medina, Ohio</p>
+            </div>
+            <div class="footer-col">
+                <a href="#">Book a quote today!</a>
+            </div>
+            <div class="footer-col">
+                <a href="#">555-555-5555</a>
+            </div>
+        </footer>
+        <div id="copyright">
+            <p>&copy; 2026. Valor Hauling. All Rights Reserved.</p>
+        </div>
+    </body>
+</html>

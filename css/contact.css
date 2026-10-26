@@ -1,0 +1,89 @@
+/* === CONTACT === */
+
+#contacts {
+    margin: 12px 5vw;
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: var(--primary-color-2);
+}
+
+#cont-grid {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    border-top: 4px solid var(--primary-color);
+    padding: 0 10px;
+    background-color: var(--secondary-color);
+    align-items: center;
+}
+
+.cont-text {
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+#icon {
+    width: 100%;
+    height: auto;
+}
+
+/* === FORM === */
+
+#bookingForm {
+    margin: 12px 5vw;
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: var(--primary-color-2);
+}
+
+#form-grid {
+    border-top: 4px solid var(--primary-color);
+    padding: 0 10px;
+    background-color: var(--secondary-color);
+}
+
+form {
+    display: block;
+    width: 100%;
+    padding: 16px 10vw 16px 10vw;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Type isn't specified because only text inputs are used */
+input, textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 12px;
+    color: black;
+}
+
+input:focus, textarea:focus, form button:focus, form button:hover {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px var(--primary-color);
+}
+
+form button {
+    width: 160px;
+    height: 40px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(75, 5, 5);
+    transition-duration: 200ms;
+    border: 2px solid white;
+}
+
+#reset {
+    background-color: rgb(15, 15, 15);
+}

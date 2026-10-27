@@ -9,7 +9,7 @@
 
 #cont-grid {
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 70px 250px 1fr;
     border-top: 4px solid var(--primary-color);
     padding: 0 10px;
     background-color: var(--secondary-color);
@@ -21,9 +21,16 @@
     margin-left: 12px;
 }
 
-#icon {
+.icon {
     width: 100%;
     height: auto;
+}
+
+#cont-grid-photo {
+    grid-row: span 3;
+    margin-left: auto;
+    height: clamp(100px, 25vw, 100%);
+    width: auto;
 }
 
 /* === FORM === */
@@ -58,7 +65,7 @@ label {
 }
 
 /* Type isn't specified because only text inputs are used */
-input, textarea {
+input, textarea, select {
     width: 100%;
     font-size: 16px;
     padding: 8px;
@@ -66,10 +73,21 @@ input, textarea {
     color: black;
 }
 
-input:focus, textarea:focus, form button:focus, form button:hover {
+input:focus, textarea:focus, select:focus, form button:focus, form button:hover {
     outline: none;
     border-color: var(--primary-color);
     box-shadow: 0 0 8px var(--primary-color);
+}
+
+option {
+    color: black;
+}
+
+.button-group {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 24px;
 }
 
 form button {

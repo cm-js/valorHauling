@@ -30,7 +30,7 @@
         font-size: 20px;
     }
 
-    /* OTHER PAGES */
+    /* HOME PAGE */
     #top {
         padding: 20px 5vw 0 5vw;
     }
@@ -57,5 +57,22 @@
         font-size: 36px;
     }
 
-    /* DO LATER */
+    /* CONTACT PAGE */
+    #cont-grid {
+        grid-template-columns: 70px 1fr;
+        grid-template-rows: 80px 80px 80px 1fr;
+    }
+
+    .icon {
+        width: 70px;
+    }
+
+    #cont-grid-photo {
+        grid-row: 4;
+        grid-column: span 2;
+        width: 100%;
+        height: 35vw;
+        object-fit: cover;
+        margin-top: 16px;
+    }
 }
